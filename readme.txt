@@ -2,8 +2,8 @@ Para que funcione el proyecto asegurate de que los puertos indicados no dan conf
 En el directorio donde se encuentra el archivo mencionado anteriormente abrir la cmd y realizar los siguientes comandos "docker-compose up".
 Abrimos otra cmd y ejecutamos el comando:"docker ps" vemos cual es que tiene una imagen con el nombre'fjortegan/dwes:laravel'y ejecutamos 
 "docker exec <nombre> /bin/bash" siendo <nombre> el nombre lo que aparece como names será algo parecido a:entornoservidorgithub_servidor_1.
-Luego hacemos "cd /var/www/html/", luego
-"php artisan migrate", despues "php artisan db:seed" y por último "php artisan storage:link" Que nos sirve para poder visualizar las imagenes.
+Luego hacemos "cd /var/www/html/", si no funciona probar con "composer install"
+luego "php artisan migrate", despues "php artisan db:seed" y por último "php artisan storage:link" Que nos sirve para poder visualizar las imagenes.
 
 ***********************************************************
 A partir de aquí es nuevo.
