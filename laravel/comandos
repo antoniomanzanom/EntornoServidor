@@ -1,0 +1,5 @@
+    1  cd root
+    2  composer create-project laravel/laravel nuevo "5.8.*" --prefer-dist
+    3  cp -r nuevo/* /var/www/html/
+    4  cp nuevo/.* /var/www/html/
+    5  chown -R www-data:www-data /var/www/html

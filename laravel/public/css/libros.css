@@ -1,0 +1,94 @@
+body {
+    font-family: 'Itim', cursive;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.panel {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.username {
+    margin-right: 1rem;
+}
+
+.tabla {
+    width: 60%;
+    margin: auto;
+}
+
+.tabla table {
+    width: 100%;
+}
+
+.tabla table {
+    border-collapse: collapse;
+}
+
+.tabla tbody tr:not(:last-of-type):hover {
+    background-color: blue;
+    color: azure;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* CSS selectors */
+.tabla tr th:nth-of-type(2) {
+    text-align: left;
+}
+
+.tabla tr th:nth-of-type(3) {
+    text-align: left;
+}
+
+.tabla tr td:first-of-type {
+    text-align: center;
+}
+
+.tabla thead {
+    background-color: #3030cf60;
+}
+
+.tabla thead tr:first-of-type {
+    background-color: #1b1bcf60;
+    font-size: 1.5rem;
+}
+
+.tabla tbody td {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    background-color: #c9c9f560;
+}
+
+.tabla tbody tr:nth-child(even) {
+    background-color: #9999f560;
+}
+
+.tabla tr td:nth-last-of-type(1) {
+    text-align: center;
+}
+.tabla tr td:nth-last-of-type(2) {
+    text-align: center;
+}
+
+.tabla tbody tr:last-of-type {
+    background-color: #1b1bcf60;
+    font-size: 1.5rem;
+}
+
+input[type="submit"] {
+    font-family: 'Itim', cursive;
+    border: 0;
+    border-radius: 3px;
+    padding: 0.75rem;
+    background-color: #1b1bcf;
+    color: azure;
+}
