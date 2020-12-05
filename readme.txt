@@ -1,6 +1,8 @@
 Para que funcione el proyecto asegurate de que los puertos indicados no dan conflicto cambiandolos y ajustandolos en el archivo docker-compose.yml.
 En el directorio donde se encuentra el archivo mencionado anteriormente abrir la cmd y realizar los siguientes comandos "docker-compose up".
-Abrimos otra cmd y ejecutamos el comando: "docker exec -it entornoservidor-master_servidor_1 /bin/bash", luego hacemos "cd /var/www/html/", luego
+Abrimos otra cmd y ejecutamos el comando:"docker ps" vemos cual es que tiene una imagen con el nombre'fjortegan/dwes:laravel'y ejecutamos 
+"docker exec <nombre> /bin/bash" siendo <nombre> el nombre lo que aparece como names será algo parecido a:entornoservidorgithub_servidor_1.
+Luego hacemos "cd /var/www/html/", luego
 "php artisan migrate", despues "php artisan db:seed" y por último "php artisan storage:link" Que nos sirve para poder visualizar las imagenes.
 
 ***********************************************************
