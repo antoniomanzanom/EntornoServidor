@@ -11,7 +11,7 @@ A partir de aquí es nuevo.
 
 A día de hoy la aplicación funciona, permitiendonos logearnos/registrarnos, subir nuestras fotos, editar dichas fotos o eliminarlas,
 comentar en las fotos de todo el mundo, dar like y borrar nuestros propios comentarios. El botón de borrar y editar la foto está en el apartado
-que se abre al pulsar comentarios por motivos estéticos.
+que se abre al pulsar comentarios por motivos estéticos.ss
 
 
 //Juan Pablo llevo 2 horas subiendo el proyecto a github y no paran de salir errores debido a que los archivos no se suben del todo bien,
